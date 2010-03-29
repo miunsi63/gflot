@@ -1,7 +1,5 @@
 #summary Details of how I'm implementing changes from flot 0.6 into gflot (Annotated flot 0.6 changelog)
 
-*Annotated* flot 0.6 changelog:
-
 =API changes:=
 
 1. Selection support has been moved to a plugin. Thus if you're passing selection: { mode: something }, you MUST  include the file jquery.flot.selection.js after jquery.flot.js. This reduces the size of base Flot and makes it easier to customize the selection as well as improving code clarity. The change is based on patch from andershol.
