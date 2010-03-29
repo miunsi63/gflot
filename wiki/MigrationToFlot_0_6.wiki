@@ -23,6 +23,10 @@ All future series-specific options will go into this sub-object to
 simplify plugin writing. Backward-compatibility code is in place, so
 old code should not break.
 
+{{{
+    Created subobject in ca.nanometrics.gflot.client.options.PlotOptions.java
+}}}
+
 3. "plothover" no longer provides the original data point, but instead
 a normalized one, since there may be no corresponding original point.
 
