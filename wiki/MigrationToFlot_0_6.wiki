@@ -24,7 +24,7 @@ simplify plugin writing. Backward-compatibility code is in place, so
 old code should not break.
 
 {{{
-    Created subobject in ca.nanometrics.gflot.client.options.PlotOptions.java
+    Created subobject in ca.nanometrics.gflot.client.options.PlotOptions
 }}}
 
 3. "plothover" no longer provides the original data point, but instead
