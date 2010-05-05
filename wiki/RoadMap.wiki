@@ -1,0 +1,4 @@
+#Project RoadMap.
+
+= Milestone 1.1.0 =
+- Support for Flot 0.6 
