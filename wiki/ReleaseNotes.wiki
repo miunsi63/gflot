@@ -1,5 +1,8 @@
 #summary release notes
 
+= Version 2.2.3 =
+  * modifying axis options without recreating plot wasn't working
+
 = Version 2.2.2 =
   * fix two bugs on PlotWithOverview : 
     * the method clear() on PlotWithOverviewSeriesHandler was not resetting all the attributes
