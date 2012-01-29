@@ -1,5 +1,9 @@
 #summary release notes
 
+= Version 2.3.0-SNAPSHOT =
+  * support for multiple axes
+  * /!\ Breaking changes /!\ Lots of change around the selection API have been made for the multiple axes support. GFlot was using deprecated method since flot 0.5. All the methods from selection API are now supported (unselected and selecting event, clear selection...)  
+
 = Version 2.2.3 =
   * modifying axis options without recreating plot wasn't working
 
