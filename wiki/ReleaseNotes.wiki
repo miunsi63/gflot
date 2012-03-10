@@ -1,11 +1,13 @@
 #summary release notes
 
 = Incoming =
-  * support for stack plugin
   * rewrite the samples. 
     * It's currently impossible to see all the tabs on small resolution.
     * Use the activity/place of GWT to access a sample via the url    
     * It could also be nice to have access directly to the source like the GWT Showcase.
+
+= Version 2.3.2 =
+  * support for stack plugin
 
 = Version 2.3.1 =
   * support for pie plugin
