@@ -2,7 +2,12 @@
 
 = Injection of flot javascript files =
 
-By default, gflot will automatically inject required flot javascript files inside the html page. If you need to control the javascript files which are added (to remove the selection plugin for example if you don't use it), add the following lines to your .gwt.xml :
+GFlot can automatically inject required flot javascript files inside the html page. By default, jquery, flot and all the flot plugins managed by GFlot are injected. To customize this behaviour, follow the next instrcutions : 
+
+=== Since version 2.4.0 ===
+
+=== Prior to 2.4.0 ===
+Prior to 2.4.0, add the following lines to your .gwt.xml :
 {{{
   <replace-with class="ca.nanometrics.gflot.client.resources.FlotJavaScriptLoader.NoInjectionImpl">
     <when-type-is class="ca.nanometrics.gflot.client.resources.FlotJavaScriptLoader.Impl" />
