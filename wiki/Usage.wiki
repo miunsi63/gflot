@@ -2,19 +2,54 @@
 
 = Injection of flot javascript files =
 
-GFlot can automatically inject required flot javascript files inside the html page. By default, jquery, flot and all the flot plugins managed by GFlot are injected. To customize this behaviour, follow the next instrcutions : 
+GFlot can automatically inject required flot javascript files inside the html page. By default, jquery, flot and all the flot plugins managed by GFlot are injected. 
 
-=== Since version 2.4.0 ===
+The current javascript files loaded are :
+  * JQuery 1.7.1 (required)
+  * Flot 0.7 (required)
+  * excanvas 0.3 : only for IE < 9, it simulates the canvas tag
+  * Flot selection plugin
+  * Flot symbol plugin : add symbols for points
+  * Flot image plugin : allows to add images inside a chart
+  * Flot resize plugin : the chart automatically resize with its placeholder
+  * Flot pie plugin : allows to create pie charts
+  * Flot stack plugin : allows to stack series
 
-=== Prior to 2.4.0 ===
-Prior to 2.4.0, add the following lines to your .gwt.xml :
+You can retrieve the javascript files from flot website :
+http://code.google.com/p/flot/downloads/list
+or directly in the source of this project. Some of the plugins have been modified to fix bugs, you can find them here : http://code.google.com/p/gflot/source/browse/#svn%2Ftrunk%2Fflot
+
+It is possible to customize this injection.
+
+== Since version 2.4.0 ==
+GWT properties have been added to customize the injection. You can find them all in the file [http://code.google.com/p/gflot/source/browse/trunk/gflot/src/main/resources/ca/nanometrics/gflot/GFlot.gwt.xml GFlot.gwt.xml].
+
+=== Disable the injection ===
+Add the following line to your .gwt.xml file :
+{{{
+
+}}}
+
+== Prior to 2.4.0 ==
+Prior to 2.4.0, there are 2 options to customize the injection.
+
+=== Custom FlotJavaScriptLoader ===
+Create your own implementation of FlotJavaScriptLoader.Impl and tell GFlot to use it by adding the following lines to your .gwt.xml :
+{{{
+  <replace-with class="YourOwnFlotJavaScriptLoader">
+    <when-type-is class="ca.nanometrics.gflot.client.resources.FlotJavaScriptLoader.Impl" />
+  </replace-with>
+}}}
+
+=== Disable injection ===
+To disable the injection, add the following lines to your .gwt.xml :
 {{{
   <replace-with class="ca.nanometrics.gflot.client.resources.FlotJavaScriptLoader.NoInjectionImpl">
     <when-type-is class="ca.nanometrics.gflot.client.resources.FlotJavaScriptLoader.Impl" />
   </replace-with>
 }}}
 
-and then add the javascript files you want to use into the header of your html page. For example :
+You can then add the javascript files you want to use into the header of your html page. For example :
 {{{
     <!-- flot library -->
     <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="gflotsample/js/excanvas.min.js"></script><![endif]-->
@@ -22,18 +57,6 @@ and then add the javascript files you want to use into the header of your html p
     <script language="javascript" type="text/javascript" src="gflotsample/js/jquery.flot.min.js"></script>
     <script language="javascript" type="text/javascript" src="gflotsample/js/jquery.flot.selection.min.js"></script>
 }}}
-
-You can retrieve the javascript files from flot website :
-http://code.google.com/p/flot/downloads/list
-or directly in the source of this project.
-
-The flot version actually used is 0.7 and the javascript files are :
-  * jquery.min.js (required)
-  * jquery.flot.min.js (required)
-  * jquery.flot.selection.min.js (only for selection)
-  * jquery.flot.symbol.min.js (only for additional symbol on PointsSeriesOptions)
-  * jquery.flot.image.min.js (only for image plugin)
-  * excanvas.min.js (only for IE <= 8)
 
 = Flot Image plugin =
 
