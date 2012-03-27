@@ -1,6 +1,9 @@
 #summary release notes
 
 = Version 2.4.0 =
+  * released on Maven Central!
+    * use the groupId : com.googlecode.gflot
+    * the old releases will remain in the gflot repository
   * rewrote the samples
   * jquery version from 1.5.1 to 1.7.1 (issue 40 ?)
   * fixed bug on Pie charts (redraw wasn't working) issue 41
