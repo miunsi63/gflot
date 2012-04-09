@@ -16,6 +16,7 @@ The current javascript files loaded are :
   * Flot stack plugin : allows to stack series
   * [http://lessaworld.com/projects/flotCanvasText/ Flot text plugin] : render the text with canvas. Useful to export chart as an image
   * [https://github.com/markrcote/flot-axislabels Flot axis labels plugin] : allows to add label to the axis
+  * Flot threshold plugin
 
 You can retrieve the javascript files from flot website :
 http://code.google.com/p/flot/downloads/list
