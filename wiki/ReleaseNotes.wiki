@@ -1,7 +1,7 @@
 #summary release notes
 
 = Future version =
-  * Support for axis label plugin : https://github.com/markrcote/flot-axislabels (r155)
+  * Support for axis label plugin : https://github.com/markrcote/flot-axislabels (r154)
   * Support for threshold plugin (r158)
 
 = Version 2.4.0 =
