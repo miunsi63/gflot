@@ -5,9 +5,9 @@
 GFlot can automatically inject required flot javascript files inside the html page. By default, jquery, flot and all the flot plugins managed by GFlot are injected. 
 
 The current javascript files loaded are :
-  * JQuery 1.7.1 (required)
-  * Flot 0.7 (required)
-  * excanvas 0.3 : only for IE < 9, it simulates the canvas tag
+  * [http://jquery.com/ JQuery 1.7.1] (required)
+  * [http://code.google.com/p/flot/ Flot 0.7] (required)
+  * [http://code.google.com/p/explorercanvas/ excanvas 0.3] : only for IE < 9, it simulates the canvas tag
   * Flot selection plugin
   * Flot symbol plugin : add symbols for points
   * Flot image plugin : allows to add images inside a chart
