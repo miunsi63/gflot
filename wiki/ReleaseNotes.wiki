@@ -3,6 +3,9 @@
 = Future version =
   * Support for axis label plugin : https://github.com/markrcote/flot-axislabels (r154)
   * Support for threshold plugin (r158)
+  * Support for navigate plugin (r166) (issue 22). Thanks to Ana Rita Loureiro for the patch
+  * jQuery version from 1.7.1 to 1.7.2
+  * issue 47 : conflicts between jQuery and other javascript libraries
 
 = Version 2.4.0 =
   * released on Maven Central!
