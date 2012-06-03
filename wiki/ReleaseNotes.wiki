@@ -1,5 +1,8 @@
 #summary release notes
 
+= Version 2.4.2-SNAPSHOT =
+  * Support for crosshair plugin : (r175 r176)
+
 = Version 2.4.1 =
   * Support for axis label plugin : https://github.com/markrcote/flot-axislabels (r154)
   * Support for threshold plugin (r158)
