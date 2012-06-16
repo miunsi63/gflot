@@ -1,7 +1,8 @@
 #summary release notes
 
-= Version 2.4.2-SNAPSHOT =
-  * Support for crosshair plugin : (r175 r176)
+= Version 2.4.2 =
+  * Support for crosshair plugin (r175 r176)
+  * Support for multiple bars plugin (r183 r184) (issue 48)
 
 = Version 2.4.1 =
   * Support for axis label plugin : https://github.com/markrcote/flot-axislabels (r154)
