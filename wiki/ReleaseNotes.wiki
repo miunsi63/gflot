@@ -1,5 +1,10 @@
 #summary release notes
 
+= Version 2.4.3 =
+  * Added methods to clear options (issue 54) (r195)
+  * Added methods to remove series in PlotModel (issue 20) (r194)
+  * Support for fillBetween plugin. Thanks to Ana Rita Loureiro for the patch (again!) (r190)
+
 = Version 2.4.2 =
   * Support for crosshair plugin (r175 r176)
   * Support for multiple bars plugin (r183 r184) (issue 48)
