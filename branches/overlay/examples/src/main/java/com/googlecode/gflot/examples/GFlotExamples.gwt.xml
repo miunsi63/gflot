@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='gflotexamples'>
+
+  <inherits name="com.google.gwt.activity.Activity" />
+  <inherits name="com.google.gwt.place.Place" />
+
+  <inherits name="ca.nanometrics.gflot.GFlot" />
+  <set-property name="gflot.load.flot.text" value="ENABLED" />
+  <set-property name="gflot.load.canvas2image" value="ENABLED" />
+
+  <!-- Generator to create the source code -->
+  <generate-with class="com.googlecode.gflot.examples.generator.SourceGenerator">
+    <when-type-assignable class="com.googlecode.gflot.examples.client.GFlotExamples.GeneratorInfo" />
+  </generate-with>
+
+  <entry-point class="com.googlecode.gflot.examples.client.GFlotExamples" />
+
+</module>
