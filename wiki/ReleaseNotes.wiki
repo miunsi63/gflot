@@ -1,5 +1,10 @@
 #summary release notes
 
+= Version 3.0.0 =
+  * Changed core api to use [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsOverlay Javascript Overlay Types]
+  * Moved codebase to Github
+  * Changed package from ca.nanometrics to com.googlecode.gflot
+
 = Version 2.4.3 =
   * Added methods to clear options (issue 54) (r195)
   * Added methods to remove series in PlotModel (issue 20) (r194)
