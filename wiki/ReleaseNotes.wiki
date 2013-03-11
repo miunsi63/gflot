@@ -1,5 +1,14 @@
 #summary release notes
 
+= Version 3.0.2 =
+  * Support for fillArea plugin (issue 59).
+  * New redraw method allowing to recreate the plot instead of just redrawing
+  * Added some special characters to the canvas-text plugin (issue 60)
+  * Fixed a bug on PlotWithInteractiveLegend [https://github.com/nmorel/gflot/issues/4 issue 4]
+
+= Version 3.0.1 =
+  * Fixed a regression on PlotWithInteractiveLegend ([https://github.com/nmorel/gflot/commit/16f183ada35b25c5ebe9c971e9b03b085ba3a8cb commit])
+
 = Version 3.0.0 =
   * Changed core api to use [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsOverlay Javascript Overlay Types]
   * Moved codebase to Github
