@@ -1,7 +1,7 @@
 #summary release notes
 
 = Version 3.0.3 =
-  * Added missing methods on Plot([https://github.com/nmorel/gflot/issues/6 issue 6])
+  * Added missing methods on Plot ([https://github.com/nmorel/gflot/issues/6 issue 6])
   * Fixed bug on slice method used by PlotWithOverview ([https://github.com/nmorel/gflot/issues/5 issue 5])
 
 = Version 3.0.2 =
