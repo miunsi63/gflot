@@ -1,5 +1,14 @@
 #summary release notes
 
+= Version 3.1.0 =
+  * Upgraded to flot 0.8
+  * Upgraded to JQuery 1.8.3
+  * Upgraded to GWT 2.2.0
+  * Dropped support of MultipleBar plugin in favour of [https://github.com/pkoltermann/SideBySideImproved Side-by-side bars plugin]
+  * Added the new options available in flot 0.8
+  * Added Categories plugin support
+  * Added Error Bars plugin support
+
 = Version 3.0.3 =
   * Added missing methods on Plot ([https://github.com/nmorel/gflot/issues/6 issue 6])
   * Fixed bug on slice method used by PlotWithOverview ([https://github.com/nmorel/gflot/issues/5 issue 5])
