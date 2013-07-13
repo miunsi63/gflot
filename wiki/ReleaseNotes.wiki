@@ -1,5 +1,9 @@
 #summary release notes
 
+= Version 3.1.2 =
+  * Fixed an issue on TickGenerator [https://github.com/nmorel/gflot/issues/9 issue 9]
+  * [https://github.com/nmorel/gflot/commit/3c7be55624146461e739682e804692ee0ec56d15 Added support for font options on axis label]
+
 = Version 3.1.1 =
   * Upgraded to flot 0.8.1
 
