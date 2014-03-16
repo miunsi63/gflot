@@ -1,7 +1,7 @@
 #summary release notes
 
 = Version 3.2.1 =
-  * Updated flot to 0.8.2
+  * Upgraded to flot 0.8.2
   * Fixed [https://github.com/nmorel/gflot/issues/16 Issue #16 PlotWithOverviewModel ignores width setting]
 
 = Version 3.2.0 =
