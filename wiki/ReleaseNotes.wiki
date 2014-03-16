@@ -1,5 +1,9 @@
 #summary release notes
 
+= Version 3.2.1 =
+  * Updated flot to 0.8.2
+  * Fixed [https://github.com/nmorel/gflot/issues/16 Issue #16 PlotWithOverviewModel ignores width setting]
+
 = Version 3.2.0 =
   * Fixed the redraw method that was not working correctly ([https://github.com/nmorel/gflot/issues/10 issue 10] and [https://github.com/nmorel/gflot/issues/12 issue 12]). Be careful, for this to work, the PlotOptions returned by getPlotOptions now always return the instance you give to the constructor of SimplePlot. It is no longer overriden by the internal plot options used by flot. If you still want to read internal options, use SimplePlot.getPlot().getOptions().
   * Removed the ability to set PieOptions to specific series ([https://github.com/nmorel/gflot/issues/11 issue 11])
